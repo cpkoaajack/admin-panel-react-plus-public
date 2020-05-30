@@ -2,7 +2,7 @@
 
 ---
 
-# ![AdminPanel](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus/master/Demo/Login/login.png)
+# ![AdminPanel](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus-public/master/Demo/Login/login.png)
 
 > This admin panel was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It helps the administrator of a private mobile application which supported by RESTful API from a NodeJS server, to monitor and administer the database. It allows the administrator to create, edit, view and approve all collections provide in the database.
 
@@ -30,35 +30,35 @@
 
 ### Dashboard
 
-![](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus/master/Demo/Dashboard/dashboard.png)
+![](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus-public/master/Demo/Dashboard/dashboard.png)
 
 ### View Item And Query Pagination
 
 Query string:
 `?page=${currentPage}`
-![](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus/master/Demo/Activity/activities.png)
-![](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus/master/Demo/Shop/shop2.png)
-![](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus/master/Demo/Shop/shop3.png)
+![](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus-public/master/Demo/Activity/activities.png)
+![](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus-public/master/Demo/Shop/shop2.png)
+![](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus-public/master/Demo/Shop/shop3.png)
 
 ### Edit Item
 
 Url (Resource):
 `/:id`
-![](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus/master/Demo/Shop/shop-edit.png)
+![](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus-public/master/Demo/Shop/shop-edit.png)
 
 ### Create Item
 
-![](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus/master/Demo/Shop/create-shop.png)
+![](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus-public/master/Demo/Shop/create-shop.png)
 
 ### Fall Back Error Message
 
-![](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus/master/Demo/Login/loginError.png)
+![](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus-public/master/Demo/Login/loginError.png)
 
 ## Mobile support
 
 This Web is responsive and compatible with devices of all sizes.
 
-# ![MobileSize-S](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus/master/Demo/Mobile/mobile-view.png)
+# ![MobileSize-S](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus-public/master/Demo/Mobile/mobile-view.png)
 
 ## Built with
 
