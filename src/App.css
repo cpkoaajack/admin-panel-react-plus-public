@@ -1,0 +1,309 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Loading animation START
+*/
+.loader-list {
+  margin: 25% 50%;
+  width: 80px;
+}
+
+.circular {
+  animation: rotate 2s linear infinite;
+}
+
+circle {
+  animation: circle-dash 1.5s ease-in-out infinite;
+}
+
+@keyframes circle-dash {
+  0% {
+    stroke-dasharray: 1, 125;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 100, 125;
+    stroke-dashoffset: -25px;
+  }
+  100% {
+    stroke-dasharray: 100, 125;
+    stroke-dashoffset: -125px;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*
+Loading animation END
+*/
+
+/*
+React Pagination START
+*/
+/* .react-pagination-package ul {
+  cursor: pointer;
+  display: inline-block;
+  list-style-type: none;
+}
+
+.react-pagination-package li {
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.react-pagination-package li:first-child {
+  padding: 0 16px 0 0;
+}
+
+.react-pagination-package li:last-child {
+  padding: 0 0 0 16px;
+}
+
+.react-pagination-package li.selected {
+  color: aliceblue;
+  background: black;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+} */
+/*
+React Pagination END
+*/
+
+.application-container {
+  display: table;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.application-container-middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.local-container {
+  width: 80%;
+  max-width: 1100px;
+  margin: auto;
+  font-size: 1rem;
+}
+
+.login .MuiPaper-root {
+  padding: 20vh 0vh;
+}
+
+.login .login-title {
+  text-align: center;
+}
+
+.login .login-form {
+  width: 50%;
+  margin: auto;
+}
+
+.login .login-form button {
+  width: 50%;
+  margin: 30px auto 0 auto;
+  display: block;
+}
+
+.dashboard-header {
+  margin: 2.5vh 0 0 1vw;
+}
+
+.dashboard-upper {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2.5em;
+  margin: 4vh 0;
+}
+
+.dashboard-item-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-list {
+  margin: 5vh 0 0 0;
+}
+
+.item-list-approve {
+  position: fixed;
+  right: 3.5rem;
+  bottom: 9rem;
+  z-index: 5;
+}
+
+.item-list-create {
+  position: fixed;
+  right: 3.5rem;
+  bottom: 3.5rem;
+  z-index: 5;
+}
+
+.create-button-two-catalog {
+  margin-top: 2rem;
+}
+
+.list-pagination-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.list-pagination-bottom {
+  margin: 5vh 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content-main {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2.5em;
+  margin: 2.5vh 0;
+}
+
+.content-loading {
+  margin: 2.5vh 0;
+  text-align: center;
+}
+
+.businesshour-list-day {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.item-edit-header {
+  margin-bottom: 2rem;
+}
+
+.item-edit-body .item-field {
+  margin-top: 1rem;
+}
+
+.item-field.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.photo-upload {
+  margin-bottom: 2rem;
+}
+
+.edit-tag-name {
+  text-align: center;
+}
+
+.last-field {
+  margin-bottom: 2rem;
+}
+
+.approve-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+@media (min-width: 2560px) {
+  .item-list-approve {
+    right: 10rem;
+    bottom: 14rem;
+  }
+
+  .item-list-create {
+    right: 10rem;
+    bottom: 5rem;
+  }
+
+  .MuiButtonBase-root.MuiFab-root.MuiFab-primary {
+    width: 80px;
+    height: 80px;
+  }
+
+  .loader-list {
+    margin: 50% 0 50% 45%;
+    width: 160px;
+  }
+
+  .local-container {
+    width: 60%;
+    max-width: 1792px;
+  }
+
+  .dashboard-upper {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1079px) {
+  .item-list-approve {
+    right: 2.5rem;
+  }
+
+  .item-list-create {
+    right: 2.5rem;
+  }
+
+  .loader-list {
+    margin: 50% 0 50% 45%;
+  }
+
+  .dashboard-upper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .approve-item {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 640px) {
+  .loader-list {
+    margin: 50% 0 50% 40%;
+  }
+
+  .content-main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 599px) {
+  .item-list-approve {
+    right: 1.5rem;
+  }
+
+  .item-list-create {
+    right: 1.5rem;
+  }
+
+  .loader-list {
+    margin: 50% 0% 50% 45%;
+    width: 40px;
+  }
+
+  .dashboard-upper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
