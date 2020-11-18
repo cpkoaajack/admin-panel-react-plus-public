@@ -2,7 +2,7 @@
 
 ---
 
-# ![AdminPanel](https://raw.githubusercontent.com/cpkoaajack/admin-panel-react-plus-public/master/Demo/Login/login.png)
+# ![AdminPanel](https://github.com/cpkoaajack/admin-panel-react-plus-public/blob/master/Demo/Login/login.png?raw=true)
 
 > This admin panel was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It helps the administrator of a private mobile application which supported by RESTful API from a NodeJS server, to monitor and administer the database. It allows the administrator to create, edit, view and approve all collections provide in the database.
 
